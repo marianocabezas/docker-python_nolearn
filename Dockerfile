@@ -10,7 +10,6 @@ MAINTAINER Mariano Cabezas <mcabezas@eia.udg.edu>
 
 
 # We add all the necessary files to the image
-ADD .theanorc ~/.theanorc
 ADD get-pip.py /usr/local/
 
 # We install all the necessary commands
